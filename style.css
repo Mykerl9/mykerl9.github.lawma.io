@@ -351,6 +351,9 @@ box-shadow: var(--shadow);
     
 }
 
+.pt {
+    color: #333333
+}
 
 .port:hover, .ph:hover, .pt:hover {
     background-color: #cf5c36;
