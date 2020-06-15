@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAWMA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-md navbar-dark bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <div class="logo">  <img class="logo horizontal-logo" src="img/logo.png" alt="forecastr logo"></div>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              HOME
+              </a>
+              
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              LANDFILL
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2" >
+                <a class="dropdown-item" href="#" >MONTHLY GENERAL</a>
+                <a class="dropdown-item" href="#">LANDFILL PSP</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">PERFORMANCE REPORT</a>
+                <a class="dropdown-item" href="#">WEEKLY ACTIVITY REPORT</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              MEDIA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2"  >
+                <a class="dropdown-item" href="#" >PHOTO GALLERY</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">NEWS AND EVENTS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">PRESS RELEASE</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">ARCHIVES</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">BLOG</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              DISTRICT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2" >
+                <a class="dropdown-item" href="#" >CENTRAL</a>
+                <a class="dropdown-item" href="#">EASTERN</a>
+                <a class="dropdown-item" href="#">EASTERN</a>
+                <div class="dropdown-divider"></div>
+                
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              PSP
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2" >
+                <a class="dropdown-item" href="#" >PSP DIRECTORY</a>
+                
+               
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              BLUEBOX
+              </a>
+              <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown2" >
+                <a class="dropdown-item" href="#" >Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> -->
+            </li>
+
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A, M & E
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown3" >
+                <a class="dropdown-item" href="#">A, M & E REPORTS</a>
+                <a class="dropdown-item" href="#">WASTE OFFENCES</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">CONTRAVENTIONS & PENALTIES</a>
+              </div> 
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT US
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown3" >
+                <a class="dropdown-item" href="#">CONTACT US</a>
+                <a class="dropdown-item" href="#">BACKGROUND</a>
+                <a class="dropdown-item" href="#">WHO WE ARE</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">WEBMAIL</a>
+                <a class="dropdown-item" href="#">ACHIEVEMENTS & AWARDS</a>
+              </div> 
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<section class="top-container">
+  <header class="showCase">
+    <img src="img/1.jpeg" alt="" class="slideshow-img">
+    <img src="img/2.png" alt="" class="slideshow-img">
+    <img src="img/3.jpg" alt="" class="slideshow-img">
+    <!-- <img src="img/images.jfif" alt="" class="slideshow-img"> -->
+  </header>
+
+</section>
+
+<section class="boxes">
+  
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon1.png" alt=""></div>
+      <h5>DISPOSAL SITES</h5>
+      <p id="text">Solid waste collected from all over the state are transported to and received at…</p>
+  </div>
+
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon2.png" alt=""></div>
+      <h5>RESOURCE RECOVERY & RECYCLING</h5>
+      <p id="text">Conserving the environment through resource re-use is one of the greatest challenges of social…</p>
+  </div>
+
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon3.png" alt=""></div>
+      <h5>EDUCATION/AWARENESS</h5>
+      <p id="text">(COMMUNITY RELATIONSHIP) LAWMA is committed to developing a strong and cordial relationship with lagosians…</p>
+  </div>
+
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon4.png" alt=""></div>
+      <h5>THE BLUEBOX PROGRAM</h5>
+      <p id="text">THE BLUE BOX RECYCLING INITIATIVE The Blue Box Program is a single stream recyclable…</p>
+  </div>
+
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon5.png" alt=""></div>
+      <h5>OPERATIONS</h5>
+      <p id="text">Operations has been decentralized into three (3) major Operational Districts namely:I. Western DistrictII. Eastern…</p>
+  </div>
+
+  <div class="box">
+    <div class="icon"><img class="icon-pic" src="img/icon6.png" alt=""></div>
+      <h5>AWARDS</h5>
+      <p id="text">2010 Awards • Most Enterprising Governmental Agency Presented by Federal Ministry of Commerce &…</p>
+  </div>
+
+  
+</section>
+
+
+
+<section class="portfolio">
+  <div class="port">
+    <img class="sec" src="img/ceo.png" alt="" >
+    <h5 class="ph">LAWMA Poised to Ensure a Sustainable Cleaner Environment</h5>
+    <p class="pt">The acting Managing Director/CEO of Lagos Waste Management Authority (LAWMA), Mr. Ibrahim Odumboni, has disclosed that his…</p>
+    <button class="btn" >READ MORE</button>
+  </div>
+  <div class="port" >
+    <img src="img/eco.jpg" alt="" >
+    <h5 class="ph">World Earth Day 2020: LAWMA makes case for a cleaner environment</h5>
+    <p class="pt">The Lagos Waste Management Authority (LAWMA) has appealed to residents in the state to maintain a cleaner…</p>
+    <button class="btn" >READ MORE</button>
+  </div>
+ <div class="port" > 
+   <img src="img/2.png" alt="" > 
+   <h5 class="ph">LAWMA Poised to Ensure a Sustainable Cleaner Environment</h5>
+   <p class="pt">The acting Managing Director/CEO of Lagos Waste Management Authority (LAWMA), Mr. Ibrahim Odumboni, has disclosed that his…</p>
+   <button class="btn" >READ MORE</button>
+  
+  </div>
+  
+</section>
+
+
+
+<section class="portfolio">
+  <img src="img/gov.jpeg" alt="" >
+  <img src="img/ceo.png" alt="" >
+  
+</section>
+
+<section class="info">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="Carousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel" data-slide-to="1"></li>
+            <li data-target="#Carousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="item active carousel-item">
+              <div class="row">
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (1).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (2).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (3).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/4.png" alt="Image" style="max-width:100%;"></a>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+            <div class="item carousel-item">
+              <div class="row">
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/5.png" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (1).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (2).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (3).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+            <div class="item carousel-item">
+              <div class="row">
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/4.png" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/5.png" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (1).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+                <div class="col-lg-3"><a href="#" class="thumbnail"><img src="img/images (2).jpeg" alt="Image" style="max-width:100%;"></a>
+                </div>
+              </div>
+              <!--.row-->
+            </div>
+            <!--.item-->
+          
+        <!--.Carousel-->
+      </div>
+    </div>
+  </div>
+  <!--.container-->
+  
+</section>
+<footer class="footer-area footer--light">
+  <div class="footer-big">
+    <!-- start .container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <div class="footer-widget">
+            <div class="widget-about">
+              <img src="img/logo.png" alt="" class="img-fluid">
+              <p> NEW TREND IN EFFICIENCY & PROFESSIONALISM</p>
+              <ul class="contact-details">
+                <li>
+                  <span class="icon-earphones"></span> Call Us:
+                  <a href="+2347080601020"> Toll Free +2347080601020 07058890660, 617 </a>
+                </li>
+                <li>
+                  <span class="icon-envelope-open"></span>
+                  <a href="mailto:support@aazztech.com">info@lawma.gov.ng</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-md-4 -->
+        <div class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <div class="footer-menu footer-menu--1">
+              <h4 class="footer-widget-title">Useful links</h4>
+              <ul>
+                <li>
+                  <a href="#">Lagos State Government</a>
+                </li>
+                <li>
+                  <a href="#">Ministry Of The Environment</a>
+                </li>
+                <li>
+                  <a href="#">Lagos State Environmental Protection Age</a>
+                </li>
+                <li>
+                  <a href="#">Lagos State Waste Water Management Office</a>
+                </li>
+                <li>
+                  <a href="#">Lagos State Signage and Advertisement Agency</a>
+                </li>
+                <li>
+                  <a href="#">
+                    Lagos State Parks And Garden Agency</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-md-3 -->
+
+        <div class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h4 class="footer-widget-title">Our Company</h4>
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">How It Works</a>
+                </li>
+                <li>
+                  <a href="#">Affiliates</a>
+                </li>
+                <li>
+                  <a href="#">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Plan &amp; Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-lg-3 -->
+
+        <div class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <div class="footer-menu no-padding">
+              <h4 class="footer-widget-title">Help Support</h4>
+              <ul>
+                <li>
+                  <a href="#">Support Forum</a>
+                </li>
+                <li>
+                  <a href="#">Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Support Policy</a>
+                </li>
+                <li>
+                  <a href="#">Refund Policy</a>
+                </li>
+                <li>
+                  <a href="#">FAQs</a>
+                </li>
+                <li>
+                  <a href="#">Buyers Faq</a>
+                </li>
+                <li>
+                  <a href="#">Sellers Faq</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- Ends: .col-lg-3 -->
+
+      </div>
+      <!-- end /.row -->
+    </div>
+    <!-- end /.container -->
+  </div>
+  <!-- end /.footer-big -->
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  -->
+
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-head" id="headingOne">
+        <h2 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            LANDFILL
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li ><a class="link" href="">Monthly General</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Landfill Psp </a> </li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Performance Report </a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Weekly Activity Report</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head" id="headingTwo">
+        <h2 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            MEDIA
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li ><a class="link" href="">Photo Gallery</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">News and Events </a> </li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Press Release </a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Archives</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Blog</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head" id="headingThree">
+        <h2 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            DISTRICT
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li ><a class="link" href="">Central</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Eastern </a> </li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Western </a></li>
+           
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head" id="headingFour">
+        <h2 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            PSP
+        </h2>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li ><a class="link" href="">PSP Directory</a></li>
+            <div class="dropdown-divider"></div>
+            
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head" id="headingFive">
+        <h2 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            A, M & E
+        </h2>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li ><a class="link" href="">A, M & E Reports</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Waste Offences</a> </li>
+            <div class="dropdown-divider"></div>
+            <li><a class="link" href="">Contraventions and penalties </a></li>
+            
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <section id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+    
+    <div class="container">
+            <div class="text-center center-block">
+                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+    </section>
+
+  <div class="mini-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright-text">
+            <p>© 2020
+              <a href="#">Create Media</a>. All rights reserved. Created by
+              <a href="#">Mykerl</a>
+            </p>
+          </div>
+
+          <div class="go_top">
+            <span class="icon-arrow-up"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
